@@ -1,0 +1,6 @@
+name: TabInfo
+main: vexsmp.plugin.Main
+author: Alzen
+version: 1.0
+api-version: 1.16
+description: Plugin that shows some information in the player list.

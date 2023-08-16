@@ -1,0 +1,18 @@
+#Customize text values here. Changes require a restart
+ServerName: Vex SMP Season 5
+
+ShowPing: true
+
+OverworldColor: YELLOW
+
+NetherColor: YELLOW
+
+EndColor: YELLOW
+
+BestPingMax: 99
+BestPingColor: GREEN
+
+GoodPingMax: 299
+GoodPingColor: YELLOW
+
+PoorPingColor: RED
