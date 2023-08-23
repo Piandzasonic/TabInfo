@@ -1,5 +1,6 @@
 package vexsmp.plugin;
 
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -14,6 +15,9 @@ public class Main extends JavaPlugin{
 
 	@Override
 	public void onEnable() {
+		
+		int pluginId = 19620;
+		Metrics metrics = new Metrics(this, pluginId);
 		
 		getConfig().options().copyDefaults();
 		saveDefaultConfig();
