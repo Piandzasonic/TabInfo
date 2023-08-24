@@ -1,6 +1,5 @@
 package vexsmp.plugin;
 
-import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -8,6 +7,7 @@ import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import vexsmp.plugin.EventListeners.PlayerWorldNameListener;
+import vexsmp.plugin.bstats.Metrics;
 
 public class Main extends JavaPlugin{
 	
